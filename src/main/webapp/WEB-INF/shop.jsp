@@ -72,12 +72,9 @@
 								$6<small class="text-muted fw-light">/pack</small>
 							</h1>
 							<ul class="list-unstyled mt-3 mb-4">
-								<li>The shining stars of this Pokémon TCG expansion are
-									undeniably the Pokémon VSTAR.</li>
-								<li>Celebrate the incredible connection between Trainers
-									and their Pokémon with the Trainer Gallery subset</li>
-								<li><strong>Features cards from Pokémon Sword and
-										shield</strong></li>
+								<li>Shiny Pokémon are so extraordinary that they’re almost never seen, </li>
+								<li> and Trainers who catch them are considered quite lucky…and yet</li><br>
+								<li>They can be yours in the Pokémon TCG: Shining Fates expansion.</li>
 							</ul>
 							<a href="/product2" class="btn btn-lg btn-outline-warning w-100">Shop
 								Shining Fates</a>
@@ -94,10 +91,8 @@
 								$6<small class="text-muted fw-light">/pack</small>
 							</h1>
 							<ul class="list-unstyled mt-3 mb-4">
-								<li>The shining stars of this Pokémon TCG expansion are
-									undeniably the Pokémon VSTAR.</li>
-								<li>Celebrate the incredible connection between Trainers
-									and their Pokémon with the Trainer Gallery subset</li>
+								<li>Seize the advantage with Pokémon of the frozen lands, phantom hauntings, howling blizzards, and wild battles, </li>
+								<li>expanding the realms of your Pokémon strategy with new powers and new possibilities.</li>
 								<li><strong>Features cards from Pokémon Sword and
 										shield</strong></li>
 							</ul>

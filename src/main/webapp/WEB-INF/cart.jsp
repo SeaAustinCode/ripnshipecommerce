@@ -42,7 +42,7 @@
 					${item.name}
 				</c:forEach>
 			</h3>
-			<div class="d-flex">
+			<!-- <div class="d-flex">
 				<div class="container">
 					<h6>Product Name: Brilliant Stars</h6>
 					<h6>Price: 6.00</h6>
@@ -59,20 +59,19 @@
 					<h6>Quantity: 1</h6>
 				</div>
 				<h2>Total: $18.00</h2>
-			</div>
+			</div> -->
 			<div class="d-flex flex-row-reverse">
-				<apple-pay-button buttonstyle="black" type="check-out" locale="en"></apple-pay-button>
 
 				<form action='/charge' method='POST' id='checkout-form'>
-					<%-- 	<input type='hidden' th:value='${amount}' name='amount' /> <label>Price:<span
-					th:text='${amount/100}' /></label> --%>
+					<%-- <input type='hidden' th:value='${amount}' name='amount' /> <label>Price:<span
+						th:text='${amount/100}' /></label> --%>
 					<!-- NOTE: data-key/data-amount/data-currency will be rendered by Thymeleaf -->
 					<script src='https://checkout.stripe.com/checkout.js'
 						class='stripe-button'
-						th:attr='data-key=pk_test_51KtNTsBxRJfNPUdIW1rt5QvUjKDaIxNCDr2ei1kCYgMU6ftixa6pWFgUmZ3NUPWhPHzf1YJ9SXowMRmH23xT9XNS00i7BkxzaA'
-						data-amount=${amount}, data-currency=${currency
-						}
-						data-name='Baeldung' data-description='Buy Packs!'
+						th:attr='data-key=${stripePublicKey}, 
+         data-amount=${amount}, 
+         data-currency=${currency}'
+						data-name='Rip N Ship' data-description='Buy Packs!'
 						data-image='https://www.baeldung.com/wp-content/themes/baeldung/favicon/android-chrome-192x192.png'
 						data-locale='auto' data-zip-code='false'>
 						
